@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc0502ae-8e2e-4fd5-923e-3146ac8f0993">
+  <producedTypes>
+    <refType typeId="fb8c0481-a70b-4dc1-9a87-5357d3a18cb9" valueTypeId="3c9d557d-de34-4099-bbc0-1474ee699a1b"/>
+    <listType typeId="f42482f5-ba04-4051-a18c-5f8425160b8c" valueTypeId="a8c7924a-2ff3-4a54-ab5d-2c8fbd2d2664"/>
+    <managerType typeId="10acfb94-1e9d-43db-a380-35136bf48fe4" valueTypeId="61a91751-1b96-470d-b36e-9c8908aeef1d"/>
+  </producedTypes>
+  <name>МетодHttp</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метод http</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e5202a8d-9ac2-4c5d-8e26-308878d13724">
+    <name>Get</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b353120c-9d76-44ec-92f3-e27cb83764f8">
+    <name>Post</name>
+    <synonym>
+      <key>ru</key>
+      <value>Post</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dc50349d-797a-440c-8edc-6c186d3e4f90">
+    <name>Put</name>
+    <synonym>
+      <key>ru</key>
+      <value>Put</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="700ae2e5-7296-4870-bf86-1f97fe7f85ad">
+    <name>Delete</name>
+    <synonym>
+      <key>ru</key>
+      <value>Delete</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

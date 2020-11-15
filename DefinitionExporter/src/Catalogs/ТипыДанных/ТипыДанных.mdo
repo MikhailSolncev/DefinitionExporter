@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6f64080-93b2-492f-8ab8-0ae98f32a2d6">
+  <producedTypes>
+    <objectType typeId="9c4cbe9e-8c6a-4aee-8fb3-2705d839aef2" valueTypeId="f0070141-b27c-4e7c-a55d-50cae9dc6131"/>
+    <refType typeId="0e29dda6-511c-41b4-8066-445e2f60172e" valueTypeId="77964023-9002-45cd-a7dc-69b5acf1e946"/>
+    <selectionType typeId="ad851c46-bba4-4fb7-ac15-453770643f70" valueTypeId="11e8ba32-01c4-493e-b131-443a3f937b92"/>
+    <listType typeId="1c3f7248-d325-43d6-ad86-58997b1a8bdb" valueTypeId="f886aebd-f947-4ee0-a203-866826b504cf"/>
+    <managerType typeId="c3d6cda1-fc6e-4e53-94b6-3af901e979b9" valueTypeId="b40a74d1-680e-41e6-8669-df76c8130841"/>
+  </producedTypes>
+  <name>ТипыДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыДанных.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТипыДанных.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="8b8afe4c-7cac-4042-8f0b-32662440c60c">
+      <name>Строка</name>
+      <description>Строка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="38d55100-c08d-4c15-a456-5e83d4611d59">
+    <producedTypes>
+      <objectType typeId="533f86d0-8400-405f-8f8a-3586b18cc760" valueTypeId="4eaaf6fe-3cdf-4b06-b641-ab4c84326caa"/>
+      <rowType typeId="47dbbca2-9889-4739-a68c-e91bd35ba164" valueTypeId="738f3c3d-5447-4b60-a131-4d2bf82a9ad2"/>
+    </producedTypes>
+    <name>Реквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизиты</value>
+    </synonym>
+    <attributes uuid="6ad8e54a-f3cc-413b-bc60-a3db7461d765">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="df83cfe0-bb13-4667-9f88-83cd03f68320">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТипыДанных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7b8e2e11-aa76-42ac-815e-de30fac077e6">
+      <name>Формат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Формат</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ФорматСтроки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

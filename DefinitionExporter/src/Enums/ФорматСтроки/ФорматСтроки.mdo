@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38487c60-a48c-46ec-bc07-91acab1b2fe3">
+  <producedTypes>
+    <refType typeId="e3cd2d7e-9120-44e0-beb4-cdd4b78df19f" valueTypeId="e1110a58-2406-42b8-b03f-178b1c4433de"/>
+    <listType typeId="9fce7d05-42ce-4a9c-a075-ac9180101640" valueTypeId="f06a16d1-9087-46f5-bcb4-b2f4d9e76339"/>
+    <managerType typeId="e25a25a7-c461-451e-904f-bf7901d619a9" valueTypeId="48636c1f-5d86-46f6-8537-d28117f2df63"/>
+  </producedTypes>
+  <name>ФорматСтроки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формат строки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ded51b32-f3f4-466f-ac8b-3ad99c88704f">
+    <name>datetime</name>
+    <synonym>
+      <key>ru</key>
+      <value>Datetime</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="702acade-c9dc-499c-bc57-95b0ba8b5595">
+    <name>uuid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Uuid</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
