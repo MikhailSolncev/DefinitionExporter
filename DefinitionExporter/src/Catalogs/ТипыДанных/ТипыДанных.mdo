@@ -21,8 +21,8 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <codeLength>11</codeLength>
+  <descriptionLength>125</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -36,9 +36,31 @@
         <value>000000001</value>
       </code>
     </items>
+    <items id="8d726e50-b269-465b-9689-2a4c85b3b526">
+      <name>Число</name>
+      <description>Число</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="e1d2bc15-2c5a-4c5d-97ad-56242b094b8b">
+      <name>Массив</name>
+      <description>Массив</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="64f9481f-befc-4e9c-acf7-63e4eb28f319">
+      <name>Булево</name>
+      <description>Булево</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТипыДанных.Form.ФормаЭлемента</defaultObjectForm>
   <tabularSections uuid="38d55100-c08d-4c15-a456-5e83d4611d59">
     <producedTypes>
       <objectType typeId="533f86d0-8400-405f-8f8a-3586b18cc760" valueTypeId="4eaaf6fe-3cdf-4b06-b641-ab4c84326caa"/>
@@ -94,5 +116,28 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="92c2d42b-d198-449d-bb2f-d1b58fd2b463">
+      <name>ТипЭлемента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип элемента</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТипыДанных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
+  <forms uuid="b65de65a-53d3-4d3c-92f8-462bfb150df8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
